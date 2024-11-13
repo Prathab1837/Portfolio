@@ -8,7 +8,7 @@ function Projects() {
         <div className='w-full'>
           <div className='flex flex-col px-5 mb-5'>
             <h1 data-aos="flip-right" className='text-4xl  border-b-4 border-orange mb-5  w-[140px] font-bold'>Projects</h1>
-            <p data-aos="fade-up">These are some of my projects. I have built these with React, MERN and css. Check them out.</p>
+            <p data-aos="fade-up">These are some of my projects. Check them out.</p>
           </div>
         </div>
         <div className='w-full '>

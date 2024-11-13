@@ -1,6 +1,6 @@
 import React from 'react'
 import ResumeImg from '../assets/resumeCartoonImage.png'
-import PrathabResume from '../assets/PrathabResume.png'
+import PrathabResume from '../assets/PrathabResume.pdf'
 
 function Resume() {
   return (

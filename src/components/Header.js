@@ -5,7 +5,7 @@ function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className='flex justify-between px-5 py-2 bg-primary navbar'>
-        <a className='font-bold text-black' href='#'>Prathab</a>
+        <a className='font-bold text-black' href='#home'>Prathab</a>
         <nav data-aos="fade-right" data-aos-duration="1500" className='hidden md:block'>
             <ul className='flex text-blue font-bold'>
                 <li className='duration-500 hover:text-red'><a href="#home">Home</a></li>
