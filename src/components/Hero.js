@@ -5,20 +5,20 @@ import Typewriter from 'typewriter-effect';
 
 function Hero() {
   return (
-    <section id='home' className='flex flex-col md:flex-row px-5 pt-[7rem] pb-[3rem] justify-center heropage'>
-        <div className='md:w-1/2 flex flex-col md:mt-16 mt-0 gap-6'>
+    <section id='home' className='flex flex-col md:flex-row  pt-[1rem] pb-[1rem] justify-center heropage'>
+        <div className='md:w-1/2 flex flex-col md:mt-16 mt-0 gap-6 pt-10'>
             <h1 data-aos="fade-left" data-aos-duration="2000" className=' text-orange text-5xl font-hero-font '>HI, <br /> <h1 className='text-6xl'>I'm Prathab</h1>
             <p data-aos="fade-right" data-aos-duration="2000" className='text-2xl text-red'>
               <Typewriter
                 options={{
-                strings: ['Web developer','React developer','Mern-stack developer'],
+                strings: ['React developer','Mern-stack developer'],
                 autoStart: true,
                 loop: true,
                 }}
               /> 
             </p>
             </h1>
-            <div data-aos="fade-right" data-aos-duration="2000" className='flex py-10'>
+            <div data-aos="fade-right" data-aos-duration="2000" className='flex py-10 media'>
                 <a href="https://www.linkedin.com/in/prathab-m-45813a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='pr-5 text-blue'><AiOutlineLinkedin size={40}/></a>
                 <a href="mailto: prathabsm4646@gmail.com" className='pr-5 text-yellow-500'><AiOutlineMail size={40}/></a>
                 <a href="https://www.instagram.com/invites/contact/?igsh=1snyzs8ncsam8&utm_content=hdikh24" className='text-pink-500 pr-5'><AiOutlineInstagram size={40}/></a>

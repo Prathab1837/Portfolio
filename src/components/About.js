@@ -11,9 +11,9 @@ function About() {
     <div className='md:w-1/2 flex justify-center'>
       <div className='flex flex-col justify-center text-white'>
         <h1 data-aos="flip-right" className='text-4xl  border-b-4 border-orange mb-5 w-[175px] font-bold'>About Me</h1>
-        <p data-aos="fade-up" className='pb-5'>Hi, I am Prathab. I am a full stack web developer. I built beautiful websites with Reactjs and TailwindCSS</p>
-        <p data-aos="fade-up" className='pb-5'>I am proficient in frontend skills like HTML, CSS, Javascript, Reactjs, TailwindCSS and Bootstrap.</p>
-        <p data-aos="fade-up" className='pb-5'>In backend I am skilled in Node.js, Express.js, and database MongoDB</p>
+        <p data-aos="fade-up" className='pb-5'>Hi, I am Prathab. I am a React developer. I build beautiful projects with Reactjs.</p>
+        <p data-aos="fade-up" className='pb-5'>I am proficient in frontend skills like Reactjs, HTML, CSS, Javascript and Bootstrap.</p>
+        <p data-aos="fade-up" className='pb-5'>In backend I am skilled in Node.js, Express.js, and database MongoDB.</p>
       </div>
        
     </div>
